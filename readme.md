@@ -21,14 +21,23 @@ This dataset of histopathologic scans of lymph node sections is a modified versi
 
 ## Model
 
-The model used in this project is DenseNet-121, a type of Convolutional Neural Network (CNN) for precision purposes. The CNN is trained on the dataset using the categorical cross-entropy loss function. The model will be able to classify the images into one of the following categories: benign or malignant.
+The model tested in this project are DenseNet-121, ResNet-50, EfficientNetV2-L and VGG16-BN, all types of Convolutional Neural Network (CNN) for precision purposes. The CNN is trained on the dataset using the categorical cross-entropy loss function. The model will be able to classify the images into one of the following categories: benign or malignant.
 
 ## Implementation
 
-The implementation of the model is done with Jupyter Notebook using the Pytorch library. The model is trained on Kaggle duo-T4 GPU using the Adam optimizer. 
+The implementation of the model is done with Jupyter Notebook using the PyTorch library. The model is trained on Kaggle duo-T4 GPU using the Adam optimizer.
   
 ## Accuracy
-The model achieved a peak accuracy of around 97.5% after 6 epochs.
+On an average of 15 epochs, here are the results of the model:
+- ResNet-50: 97.29%
+- DenseNet-121: 97.24%
+- EfficientNetV2-L: 97.37%
+- VGG16-BN: 97.04%
+Inference speed (ranked):
+1. ResNet-50
+2. VGG16-BN
+3. DenseNet-121
+4. EfficientNetV2-L
 
 ![alt text](image.png)
 
