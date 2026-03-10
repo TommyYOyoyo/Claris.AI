@@ -45,6 +45,7 @@ Inference speed (ranked):
 ![alt text](image.png)
 
 ## Sources
-Thanks to many Kaggle competitions, datasets and notebooks for inspiration.
-[PCam Dataset (modified)](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data)
+Thanks to many Kaggle competitions, datasets and notebooks for inspiration. <br>
+Mainly:
+[PCam Dataset (modified)](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data) <br>
 [Original inspiration](https://www.kaggle.com/code/akarshu121/cancer-detection-with-cnn-for-beginners)
