@@ -36,10 +36,10 @@ On an average of 15 epochs, here are the results of the model:
 <br>
 Inference speed (ranked):
 <br>
-1. ResNet-50
-2. VGG16-BN
-3. DenseNet-121
-4. EfficientNetV2-L
+1. ResNet-50 <br>
+2. VGG16-BN <br>
+3. DenseNet-121 <br>
+4. EfficientNetV2-L <br>
 
 ![alt text](image.png)
 
