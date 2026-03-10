@@ -33,6 +33,7 @@ On an average of 15 epochs, here are the results of the model:
 - DenseNet-121: 97.24%
 - EfficientNetV2-L: 97.37%
 - VGG16-BN: 97.04%
+<br>
 Inference speed (ranked):
 1. ResNet-50
 2. VGG16-BN
