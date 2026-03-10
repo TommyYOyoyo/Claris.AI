@@ -40,8 +40,11 @@ Inference speed (ranked):
 2. VGG16-BN <br>
 3. DenseNet-121 <br>
 4. EfficientNetV2-L <br>
+<br>
 
 ![alt text](image.png)
 
 ## Sources
 Thanks to many Kaggle competitions, datasets and notebooks for inspiration.
+[PCam Dataset (modified)](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data)
+[Original inspiration](https://www.kaggle.com/code/akarshu121/cancer-detection-with-cnn-for-beginners)
