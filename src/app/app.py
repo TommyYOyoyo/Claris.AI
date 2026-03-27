@@ -6,8 +6,8 @@ from PIL import Image
 import torch.nn.functional as F
 
 # Page setup
-st.set_page_config(page_title="Claris", page_icon="🔬")
-st.title("Claris: diagnostic de cancer par histopathologie 🔬")
+st.set_page_config(page_title="Claris.AI", page_icon="🔬")
+st.title("Claris.AI: diagnostic de cancer")
 st.write("Téléversez un scan de 96x96 afin de détecter la presence de tissu métastatique.")
 
 # Load model once
