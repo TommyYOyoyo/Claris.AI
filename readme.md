@@ -1,10 +1,10 @@
 # Claris: Histopathology Cancer Detector
 
-This project was realized for Expo-Science hosted by Hydro-Quebec.
+This project was realized for Expo-Sciences hosted by Hydro-Quebec.
 
 ## Introduction
 
-Many healthcare professionals are under great pressure with the current situation of Quebec's healthcare industry. A severe lack of personnel is a prominent issue, and the efficiency in cancer diagnosis process was worsened by this problem. It is not always easy to detect cancer in images. This project aims to develop a deep learning model that can detect histopathologic cancer in images, in order to ease the process of detection and pressure on the healthcare industry.
+Many healthcare professionals are under great pressure with the current situation of Canadian healthcare industry. A severe lack of personnel is a prominent issue, and the efficiency in cancer diagnosis process is worsened by this problem. It is not always easy to detect cancer in images. This project aims to develop a deep learning model that can detect histopathologic cancer in images, in order to ease the process of detection and pressure on the healthcare industry.
 
 ---
 
@@ -21,11 +21,11 @@ This dataset of histopathologic scans of lymph node sections is a modified versi
 
 ## Model
 
-The model tested in this project are DenseNet-121, ResNet-50, EfficientNetV2-L and VGG16-BN, all types of Convolutional Neural Network (CNN) for precision purposes. The CNN is trained on the dataset using the categorical cross-entropy loss function. The model will be able to classify the images into one of the following categories: benign or malignant.
+The models tested in this project are DenseNet-121, ResNet-50, EfficientNetV2 (L) and VGG16-BN, all architectures of Convolutional Neural Network (CNN) that excel in precision. They are all pre-trained on the ImageNetV1 dataset using transfer learning. The output layer of the model consists of two neurons: benign or malignant.
 
 ## Implementation
 
-The implementation of the model is done with Jupyter Notebook using the PyTorch library. The model is trained on Kaggle duo-T4 GPU using the Adam optimizer.
+This implementation utilizes PyTorch. The model is trained on Kaggle duo-T4 GPU.
   
 ## Accuracy
 On an average of 15 epochs, here are the results of the model:
@@ -33,6 +33,7 @@ On an average of 15 epochs, here are the results of the model:
 - DenseNet-121: 97.24%
 - EfficientNetV2-L: 97.37%
 - VGG16-BN: 97.04%
+
 <br>
 Inference speed (ranked):
 <br>
@@ -42,6 +43,7 @@ Inference speed (ranked):
 4. EfficientNetV2-L <br>
 <br>
 
+![alt text](image-1.png)
 ![alt text](image.png)
 
 ## Sources
