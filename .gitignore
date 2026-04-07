@@ -1,6 +1,8 @@
 src/complementary/
 .DS_Store
-.vscode/
+.vscode
+.kaggle-outputs
+.git
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
