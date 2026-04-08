@@ -1,6 +1,6 @@
 # Claris: Histopathology Cancer Detector
 
-This project was realized for Expo-Sciences hosted by Hydro-Quebec.
+This project was realized for Expo-Sciences hosted by Hydro-Quebec. Therefore, the final product is currently only available in **French**.
 
 ## Introduction
 
@@ -37,17 +37,26 @@ On an average of 15 epochs, here are the results of the model:
 <br>
 Inference speed (ranked):
 <br>
+
 1. ResNet-50 <br>
 2. VGG16-BN <br>
 3. DenseNet-121 <br>
-4. EfficientNetV2-L <br>
+4. EfficientNetV2 (L) <br>
 <br>
 
-![alt text](image-1.png)
-![alt text](image.png)
+### Performance analysis:
+<br>
+
+![alt text](./display/image-1.png)
+![alt text](./display/image.png)
+
+<br>
+
+### Example of usage on external sample image:
+![alt text](./display/image-2.png)
 
 ## Sources
 Thanks to many Kaggle competitions, datasets and notebooks for inspiration. <br>
 Mainly:
 [PCam Dataset (modified)](https://www.kaggle.com/competitions/histopathologic-cancer-detection/data) <br>
-[Original inspiration](https://www.kaggle.com/code/akarshu121/cancer-detection-with-cnn-for-beginners)
+[With the help of](https://www.kaggle.com/code/akarshu121/cancer-detection-with-cnn-for-beginners)
